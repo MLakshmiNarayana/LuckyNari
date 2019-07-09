@@ -42,7 +42,6 @@ namespace Foodicsapi
                { "secret", "39K7I6GJ7ID137CUI2UF" }
 
             };
-           
             ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
             var content = new FormUrlEncodedContent(values);
 
