@@ -42,7 +42,7 @@ namespace Foodicsapi
                { "secret", "39K7I6GJ7ID137CUI2UF" }
 
             };
-            //sAccTocken_Foodics = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcHAiLCJhcHAiOjIyNCwiYnVzIjpudWxsLCJjb21wIjpudWxsLCJzY3J0IjoiNllKS1lOIn0.dOPgF_BwVhSNAl3R9FJDnQs8gXTRFVm9peWZEJ76-XM";
+           
             ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
             var content = new FormUrlEncodedContent(values);
 
